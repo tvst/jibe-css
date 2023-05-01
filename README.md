@@ -46,8 +46,19 @@ function Button({ children }) {
    }
    ```
 
-3. In your project, use the variables from jibe.css (preferably)
-   and jibe-base.css (as a fallback).
+3. In your project, use the variables from
+   [jibe.css](https://github.com/tvst/jibe-css/blob/main/jibe/jibe.css)
+   (preferably) and
+   [jibe-base.css](https://github.com/tvst/jibe-css/blob/main/jibe/jibe-base.css)
+   (as a fallback).
+
+
+## API Reference
+
+This framework is just a bunch of CSS Custom Properties. So just look at
+[jibe.css](https://github.com/tvst/jibe-css/blob/main/jibe/jibe.css) and
+[jibe-base.css](https://github.com/tvst/jibe-css/blob/main/jibe/jibe-base.css)
+to see the properties that are available.
 
 
 ## Why not just use Tailwind?
