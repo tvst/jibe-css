@@ -1,0 +1,41 @@
+@import "./jibe-base.css";
+
+/* Different projects have different needs, so add here the different semantic
+ * properties your project asks for.
+ *
+ * 99.99% of times, this is the only file you should be editing. Not jibe-base
+ * or jibe-reset.
+ */
+:root {
+  /* Font sizes
+   *
+   * Example usage:
+   *   font-size: var(--font-size-base);
+   */
+  --font-size-base: var(--font-md);
+  --font-size-caption: var(--font-sm);
+  --font-size-hero: var(--font-4xl);
+  --font-size-header: var(--font-3xl);
+  --font-size-subheader: var(--font-2xl);
+  --font-size-subsubheader: var(--font-xl);
+
+  /* Font definitions
+   *
+   * Example usage:
+   *   font: var(--font-body);
+   */
+  --font-body: var(--font-size-base) / var(--leading-md) var(--family-sans);
+  --font-header: var(--weight-bold) var(--font-size-header) / var(--leading-xs) var(--family-sans);
+
+  /* Colors
+   *
+   * Example usage:
+   *   color: var(--color-text);
+   *   border: 1px solid var(--color-primary);
+   *   background-color: var(--color-page);
+   */
+  --color-text: var(--color-slate-900);
+  --color-page: var(--color-white);
+  --color-primary: var(--color-blue-500);
+  --color-secondary: var(--color-slate-500);
+}
