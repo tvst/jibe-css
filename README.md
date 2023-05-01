@@ -50,7 +50,7 @@ function Button({ children }) {
    and jibe-base.css (as a fallback).
 
 
-# Why not just use Tailwind?
+## Why not just use Tailwind?
 
 Tailwind is awesome, and I use it all the time. I built this because
 I was working on a project where the component framework
@@ -64,7 +64,8 @@ out of the box, and it wasn't easy to add support.
 
 So I built this 😃
 
-Other reasons you may want to use Jibe:
+
+## Reasons you may want to use Jibe
 
 1. You're one of those people who are just averse to utility classes.
 1. You want to write code that anyone who knows CSS can just pick
