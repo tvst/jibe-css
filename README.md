@@ -35,10 +35,12 @@ function Button({ children }) {
 ```
 
 
-## How it works
+## How to use it
 
-1. Import jibe.css into your project.
-2. Modify it to customize semantic styles, for example:
+1. Copy the CSS files from the [jibe/](https://github.com/tvst/jibe-css/tree/main/jibe)
+   folder into your project.
+1. Modify jibe.css to customize semantic styles that are specific to your project,
+   such as:
 
    ```css
    :root {
@@ -46,7 +48,8 @@ function Button({ children }) {
    }
    ```
 
-3. In your project, use the variables from
+3. Use CSS as usual but, instead of writing values like `3px` or `5rem`,
+   always use the variables from
    [jibe.css](https://github.com/tvst/jibe-css/blob/main/jibe/jibe.css)
    (preferably) and
    [jibe-base.css](https://github.com/tvst/jibe-css/blob/main/jibe/jibe-base.css)
